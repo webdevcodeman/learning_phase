@@ -64,6 +64,7 @@
 }
 .home,
 .logout{
-    flex:1;
+    flex:initial;
     border:1px solid green;
+    width:300px;
 }
