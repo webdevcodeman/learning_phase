@@ -62,9 +62,14 @@
     display: flex;
     border:1px solid red;
 }
-.home,
+.home{
+    flex: 1 1 200px;
+    border: 1px solid green;
+}
 .logout{
-    flex:initial;
+    /* flex:initial;
     border:1px solid green;
-    width:300px;
+    width:300px; */
+    flex: 10 1 200px;
+    border: 1px solid green;
 }
