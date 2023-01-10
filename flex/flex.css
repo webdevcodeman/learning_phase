@@ -58,17 +58,25 @@
     flex: 5;
     align-self: stretch;
 } */
+html,body{
+    height: 100%;
+    box-sizing: border-box;
+}
 .flex-container{
     display: flex;
     border:1px solid red;
     justify-content: space-evenly;
+    height:100%;
+    align-items: center;
 }
 .home{
     border: 1px solid green;
+    align-self: flex-end;
 }
 .logout{
     /* flex:initial;
     border:1px solid green;
     width:300px; */
     border: 1px solid green;
+    align-self: flex-start;
 }
