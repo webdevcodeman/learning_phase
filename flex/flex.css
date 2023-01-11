@@ -58,7 +58,7 @@
     flex: 5;
     align-self: stretch;
 } */
-html,body{
+/* html,body{
     height: 100%;
     box-sizing: border-box;
 }
@@ -73,10 +73,16 @@ html,body{
     border: 1px solid green;
     align-self: flex-end;
 }
-.logout{
+.logout{ */
     /* flex:initial;
     border:1px solid green;
     width:300px; */
-    border: 1px solid green;
+    /* border: 1px solid green;
     align-self: flex-start;
+} */
+.home{
+    margin: 10px;
+}
+.logout{
+    margin: -10px;
 }
