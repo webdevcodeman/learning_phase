@@ -152,3 +152,4 @@
 const birthYear=1948;
 const thisYear=1965;
 console.log("Age is "+(thisYear-birthYear)+".");
+console.log(`Age is ${(thisYear-birthYear)}.`);
