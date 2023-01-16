@@ -1,3 +1,4 @@
+"use strict";
 // let message;
 // message="Hello";
 // let message="Hello!";
@@ -46,18 +47,105 @@
 //     alert("Welcome!");
 //   }
 // }
-let userName=prompt("Who's there?","");
-if(userName === "Admin"){
-  let password=prompt("Password?","");
-  if(password === "TheMaster"){
-    alert("Welcome!");
-  }else if(password=== "" || password===null){
-    alert("Canceled");
-  }else{
-    alert("Wrong password");
-  }
-}else if(userName=== "" || userName === null){
-  alert("Canceled");
-}else{
-  alert("I don't know you");
+// let userName=prompt("Who's there?","");
+// if(userName === "Admin"){
+//   let password=prompt("Password?","");
+//   if(password === "TheMaster"){
+//     alert("Welcome!");
+//   }else if(password=== "" || password===null){
+//     alert("Canceled");
+//   }else{
+//     alert("Wrong password");
+//   }
+// }else if(userName=== "" || userName === null){
+//   alert("Canceled");
+// }else{
+//   alert("I don't know you");
+// }
+// let officialName=prompt("What's the \"official\" name of JavaScript?","");
+// if(officialName==="ECMAScript"){
+//   alert("Right!");
+// }else{
+//   alert("You don't know? \"ECMAScript\"!");
+// }
+// let number=+(prompt("Enter a number.",0));
+// if(number>0){
+//   alert(1);
+// }else if(number<0){
+//   alert(-1);
+// }else{
+//   alert(0);
+// }
+// let result=(a+b<4)?"Below":"Over";
+// let message=(login==="Employee")?"Hello":
+//             (login==="Director")?"Greetings":
+//             (login==="")?"No Login":
+//             "";
+// const day=new Date().getDay();
+// switch(day){
+//   case 0:
+//     console.log("Sunday");
+//     break;
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   default:
+//     console.log("Error");
+// }
+// const grade=87;
+// switch(true){
+//   case grade>=90:
+//     console.log("A");
+//     break;
+//   case grade>=80:
+//     console.log("B");
+//     break;
+//   case grade>=70:
+//     console.log("C");
+//     break;
+//   case grade>=60:
+//     console.log("D");
+//     break;
+//   default:
+//     console.log("F");
+// }
+const month=new Date().getMonth();
+switch(month){
+  case 0:
+  case 1:
+  case 2:
+    console.log("Winter");
+    break;
+  case 3:
+  case 4:
+  case 5:
+    console.log("Spring");
+    break;
+  case 6:
+  case 7:
+  case 8:
+    console.log("Summer");
+    break;
+  case 9:
+  case 10:
+  case 11:
+    console.log("Autumn");
+    break;
+  default:
+    console.log("Error");
 }
