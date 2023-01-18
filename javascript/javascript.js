@@ -153,23 +153,38 @@
 // const thisYear=1965;
 // console.log("Age is "+(thisYear-birthYear)+".");
 // console.log(`Age is ${(thisYear-birthYear)}.`);
-function checkAge(age){
-  if(age>=18){
-    return true;
-  }else{
-    return confirm("Do you have permission from your parents?");
-  }
-}
-function showMovie(age){
-  if(!checkAge(age)){
-    return;
-  }
-  alert("Showing you the movie");
-}
-let age=prompt("How old are you?",18);
-showMovie(age);
+// function checkAge(age){
+//   if(age>=18){
+//     return true;
+//   }else{
+//     return confirm("Do you have permission from your parents?");
+//   }
+// }
+// function showMovie(age){
+//   if(!checkAge(age)){
+//     return;
+//   }
+//   alert("Showing you the movie");
+// }
+// let age=prompt("How old are you?",18);
+// showMovie(age);
 // if(checkAge(age)){
 //   alert("Access granted");
 // }else{
 //   alert("Access denied");
 // }
+function pow(x,n){
+  // return x**n;
+  let result=x;
+  for(let i=1;i<n;i++){
+    result*=x;
+  }
+  return result;
+}
+let x=prompt("Enter x:",3);
+let n=prompt("Enter n:",2);
+if(n<1){
+  alert(`Power ${n} is not supported, use a positive integer.`);
+}else{
+  alert(`pow(${x}, ${n}) = ${pow(x,n)}`);
+}
