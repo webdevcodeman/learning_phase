@@ -149,7 +149,20 @@
 //   default:
 //     console.log("Error");
 // }
-const birthYear=1948;
-const thisYear=1965;
-console.log("Age is "+(thisYear-birthYear)+".");
-console.log(`Age is ${(thisYear-birthYear)}.`);
+// const birthYear=1948;
+// const thisYear=1965;
+// console.log("Age is "+(thisYear-birthYear)+".");
+// console.log(`Age is ${(thisYear-birthYear)}.`);
+function checkAge(age){
+  if(age>=18){
+    return true;
+  }else{
+    return confirm("Do you have permission from your parents?");
+  }
+}
+let age=prompt("How old are you?",18);
+if(checkAge(age)){
+  alert("Access granted");
+}else{
+  alert("Access denied");
+}
