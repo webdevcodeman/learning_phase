@@ -173,18 +173,18 @@
 // }else{
 //   alert("Access denied");
 // }
-function pow(x,n){
-  // return x**n;
-  let result=x;
-  for(let i=1;i<n;i++){
-    result*=x;
-  }
-  return result;
-}
-let x=prompt("Enter x:",3);
-let n=prompt("Enter n:",2);
-if(n<1){
-  alert(`Power ${n} is not supported, use a positive integer.`);
-}else{
-  alert(`pow(${x}, ${n}) = ${pow(x,n)}`);
-}
+// function pow(x,n){
+//   // return x**n;
+//   let result=x;
+//   for(let i=1;i<n;i++){
+//     result*=x;
+//   }
+//   return result;
+// }
+// let x=prompt("Enter x:",3);
+// let n=prompt("Enter n:",2);
+// if(n<1){
+//   alert(`Power ${n} is not supported, use a positive integer.`);
+// }else{
+//   alert(`pow(${x}, ${n}) = ${pow(x,n)}`);
+// }

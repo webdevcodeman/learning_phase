@@ -16,6 +16,37 @@
     // console.log(b);
     // console.log("Hello, World!");
     // console.log(23+97);
+    function add7(num){
+      return num+7;
+    }
+    function multiply(num1,num2){
+      return num1*num2;
+    }
+    function capitalize(str){
+      let firstLetter= str.slice(0,1);
+      let upperCaseFirstLetter=firstLetter.toUpperCase();
+      let remainingLetter= str.slice(1);
+      let result=upperCaseFirstLetter+remainingLetter;
+      return result;
+    }
+    function lastLetter(s){
+      let result=s.slice(-1);
+      return result;
+    }
+    let sum=add7(1);
+    console.log(sum);
+    let product=multiply(2,5);
+    console.log(product);
+    let firstLetterCapitalized=capitalize("lowercase");
+    console.log(firstLetterCapitalized);
+    firstLetterCapitalized=capitalize("UPPERCASE");
+    console.log(firstLetterCapitalized);
+    firstLetterCapitalized=capitalize("BoTh");
+    console.log(firstLetterCapitalized);
+    firstLetterCapitalized=capitalize("bOtH");
+    console.log(firstLetterCapitalized);
+    let lastCharacter=lastLetter("abcd");
+    console.log(lastCharacter);
   </script>
 </body>
 </html>
